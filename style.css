@@ -1,0 +1,234 @@
+#grafico_1 {    
+	
+}
+
+div.tooltip {
+
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	z-index: 9999;
+	margin: 5px 0 105px -40px;
+	padding: 5px;
+	width: 250px;
+	height: 50px;	
+	border-radius: 10px/50%;
+	background: lightgrey;
+	color: steelblue;
+	text-align: left;
+	font-size: 14px;
+	opacity: 0;
+	cursor: default;
+	transition:  transform 0.3s;
+	pointer-events: none;
+	text-align: center;	
+}
+
+.lineas_0, .lineas_1, .lineas_2, .lineas_3, .lineas_4 , .lineas_5, .lineas_6 {
+  fill: none;
+  stroke: lightgreen;
+  stroke-width: 2px;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: grey;
+  shape-rendering: crispEdges;
+  font-size: 12px;
+
+
+}
+.axis text {
+	font-size: 12px;
+	 fill: grey;
+
+}
+
+
+.x_axis_bar path, .x_axis_bar line, .x_axis_bar_multiple path, .x_axis_bar_multiple line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+  display: none;
+}
+
+.x_axis_bar text {
+  font-size: 12px;
+  fill: grey;
+}
+
+.x_axis_bar_multiple text {
+  font-size: 10px;
+  fill: grey;
+}
+
+.y_axis_bar path, .y_axis_bar line, .y_axis_bar_multiple path, .y_axis_bar_multiple line {
+  fill: none;
+  stroke: grey;
+  shape-rendering: crispEdges;
+}
+
+.y_axis_bar text {
+  font-size: 13px;
+  fill: grey;
+}
+
+.y_axis_bar_multiple text {
+  font-size: 9px;
+  fill: grey;
+}
+
+
+
+
+.legenda_bar {
+
+	font-size: 12px;
+	font-family: sans-serif;
+	fill: grey;
+}
+
+.axisTittle {
+	font-size: 14px;
+	fill: grey;
+	font-family: sans-serif;
+}
+
+
+.texto_bar_chart_horizontal {
+ position: relative;
+color:red;
+font-size: 14px;
+vertical-align: middle;
+text-align: center;
+text-align: center;
+    border: 3px solid green;
+    z-index: -1000;
+}
+
+
+.bubble{
+	opacity: 1;
+	transition: opacity 0.3s;
+}
+
+.bubble:hover text{
+	opacity: 1;
+}
+
+.bubble:hover circle{
+	fill-opacity: 1;
+}
+
+
+.titulo_bar_double {
+	font-size: 14px;
+	font-family: sans-serif;
+	fill: grey;
+
+}
+
+.titulo_bar_multiple {
+	font-size: 16px;
+	font-family: sans-serif;
+
+}
+
+.descriptor_bar{
+	font-size: 12px;
+	font-family: sans-serif;
+}
+
+.line_legend {
+	font-size: 15px;
+	font-family: sans-serif;
+	stroke: none;
+}
+
+.cabecera {
+
+	width: 100%;
+	height: 40px;
+	font-size: 25px;
+	font-family: sans-serif;
+	color: steelblue;
+	background: -webkit-linear-gradient( lightgrey, white);
+   background: -moz-linear-gradient(grey, lightgrey);
+   background: -o-linear-gradient(grey, lightgrey);
+
+  
+
+
+}
+
+body, button {
+	font-size: 15px;
+	font-family: sans-serif;
+	margin : 0;
+	text-align: center
+}
+
+input[type="file" i] {
+    align-items: baseline;
+    color: inherit;
+    text-align: start;
+    font-size: 15px;
+	font-family: sans-serif;
+}
+
+input[type="submit" i] {
+	font-size: 15px;
+	font-family: sans-serif;
+
+}
+
+.div_grafico_unico{
+	margin-top: 50px;
+}
+
+.pie_pagina{
+
+	margin-top : 50px;
+}
+
+.pie_pagina a{
+
+	font-size: 15px;
+	font-family: sans-serif;
+	color: steelblue;
+	text-decoration: none;
+}
+
+.valoracion, .valoracion_1, .valoracion_2,  .valoracion_tipo_grafico {
+	text-decoration: none;
+	font-size: 20px;
+	font-family: sans-serif;
+	border: 1px dotted #999999;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+	background: lightgrey;
+}
+
+
+.valoracion_tipo_grafico {
+	text-align: left;
+}
+
+.valoracion_sel, .valoracion_1_sel, .valoracion_2_sel{
+	text-decoration: none;
+	font-size: 20px;
+	font-family: sans-serif;
+	border: 1px dotted #000000;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+	background: steelblue;
+}
+
